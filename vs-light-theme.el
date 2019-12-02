@@ -44,6 +44,7 @@
       (str     "#B21515")
       (type    "#2B91AF")
       (var     "#000000")
+      (prep "#8D9B99")
       (ln-color-fg "#2B91AF")
       (ln-color-bg "#EEEEEE"))
   (custom-theme-set-faces
@@ -60,6 +61,7 @@
    `(font-lock-string-face ((,class (:foreground ,str))))
    `(font-lock-type-face ((,class (:foreground ,type ))))
    `(font-lock-variable-name-face ((,class (:foreground ,var))))
+   `(font-lock-preprocessor-face ((,class (:foreground ,prep))))
    `(line-number ((,class (:background ,ln-color-bg , :foreground ,ln-color-fg))))))
 
 ;;;###autoload
