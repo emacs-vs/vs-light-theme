@@ -4,3 +4,7 @@
 
 # vs-light-theme
 > Visual Studio IDE light theme.
+
+<p align="center">
+  <img src="./screenshot/vs-light-theme.png"/>
+</p>
