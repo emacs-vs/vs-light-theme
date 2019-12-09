@@ -72,6 +72,7 @@
 ;;;###autoload
 (defun vs-light-theme ()
   "Load Visual Studio light theme."
+  (interactive)
   (load-theme 'vs-light t))
 
 (provide-theme 'vs-light)
