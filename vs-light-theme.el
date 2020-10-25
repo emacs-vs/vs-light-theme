@@ -77,6 +77,5 @@
 
 (provide-theme 'vs-light)
 
-
 (provide 'vs-light-theme)
 ;;; vs-light-theme.el ends here
