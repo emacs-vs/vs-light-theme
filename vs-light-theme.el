@@ -1,12 +1,11 @@
 ;;; vs-light-theme.el --- Visual Studio IDE light theme
 
-;; Copyright (C) 2019-2021 , Jen-Chieh Shen
+;; Copyright (C) 2019-2022 , Jen-Chieh Shen
 
 ;; Author: Jen-Chieh Shen
 ;; URL: https://github.com/emacs-vs/vs-light-theme
 ;; Version: 0.2
 ;; Package-Requires: ((emacs "24.1"))
-;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -33,36 +32,85 @@
 (deftheme vs-light
   "Visual Studio IDE light theme.")
 
-(let ((class '((class color) (min-colors 89)))
-      (fg1 "#000000")
-      (bg1 "#ffffff")
-      (builtin "#B0C4DE")
-      (keyword "#0000FF")
-      (const   "#2B91AF")
-      (comment "#6B8E23")
-      (func    "#74534B")
-      (str     "#B21515")
-      (type    "#2B91AF")
-      (var     "#000000")
-      (prep "#8D9B99")
-      (ln-color-fg "#2B91AF")
-      (ln-color-bg "#EEEEEE"))
-  (custom-theme-set-faces
-   'vs-light
-   `(default ((,class (:background ,bg1 :foreground ,fg1))))
-   `(font-lock-builtin-face ((,class (:foreground ,builtin))))
-   `(font-lock-comment-face ((,class (:foreground ,comment))))
-   `(font-lock-negation-char-face ((,class (:foreground ,const))))
-   `(font-lock-reference-face ((,class (:foreground ,const))))
-   `(font-lock-constant-face ((,class (:foreground ,const))))
-   `(font-lock-doc-face ((,class (:foreground ,comment))))
-   `(font-lock-function-name-face ((,class (:foreground ,func))))
-   `(font-lock-keyword-face ((,class (:foreground ,keyword))))
-   `(font-lock-string-face ((,class (:foreground ,str))))
-   `(font-lock-type-face ((,class (:foreground ,type ))))
-   `(font-lock-variable-name-face ((,class (:foreground ,var))))
-   `(font-lock-preprocessor-face ((,class (:foreground ,prep))))
-   `(line-number ((,class (:background ,ln-color-bg , :foreground ,ln-color-fg))))))
+(custom-theme-set-faces
+ 'vs-light
+ `(default                      ((t (:background "#ffffff" :foreground "#000000"))))
+ `(font-lock-builtin-face       ((t (:foreground "#0C6EEF"))))
+ `(font-lock-comment-face       ((t (:foreground "olive drab"))))
+ `(font-lock-negation-char-face ((t (:foreground "#2B91AF"))))
+ `(font-lock-reference-face     ((t (:foreground "#2B91AF"))))
+ `(font-lock-constant-face      ((t (:foreground "#2B91AF"))))
+ `(font-lock-doc-face           ((t (:foreground "olive drab"))))
+ `(font-lock-function-name-face ((t (:foreground "#74534B"))))
+ `(font-lock-keyword-face       ((t (:foreground "#0000FF"))))
+ `(font-lock-preprocessor-face  ((t (:foreground "#808080"))))
+ `(font-lock-string-face        ((t (:foreground "#B21515"))))
+ `(font-lock-type-face          ((t (:foreground "#2B91AF"))))
+ `(font-lock-variable-name-face ((t (:foreground "#000000"))))
+
+ `(line-number ((t (:background "#EEEEEE" , :foreground "#2B91AF"))))
+ `(cursor      ((t :background "#909090")))
+ `(hl-line     ((t :background "#E6E6E6")))
+ `(region      ((t :background "#99C9EF")))
+ `(fringe      ((t :background "#E6E7E8")))
+
+ `(show-paren-match ((t :background "#C6E370")))
+
+ `(tree-sitter-hl-face:tag                 ((t :foreground "#900022")))
+ `(tree-sitter-hl-face:type.builtin        ((t :foreground "#0000FF")))
+ `(tree-sitter-hl-face:type                ((t :foreground "#2B91AF")))
+ `(tree-sitter-hl-face:function            ((t :foreground "black")))
+ `(tree-sitter-hl-face:function.call       ((t :foreground "black")))
+ `(tree-sitter-hl-face:variable.parameter  ((t :foreground "#808080")))
+ `(tree-sitter-hl-face:property            ((t :foreground "#2F4F4F")))
+ `(tree-sitter-hl-face:property.definition ((t :foreground "#2F4F4F")))
+ `(tree-sitter-hl-face:punctuation         ((t :foreground "#020000")))
+ `(tree-sitter-hl-face:operator            ((t :foreground "#020000")))
+ `(tree-sitter-hl-face:number              ((t :foreground "black")))
+ `(tree-sitter-hl-face:constant            ((t :foreground "#6F008A")))
+ `(tree-sitter-hl-face:constant.builtin    ((t :foreground "#0000FF")))
+ `(tree-sitter-hl-face:keyword             ((t :foreground "#0000FF")))
+ `(tree-sitter-hl-face:variable            ((t :foreground "#000000")))
+ `(tree-sitter-hl-face:variable.special    ((t :foreground "#6F008A")))
+
+ `(company-tooltip-annotation       ((t :foreground "#41474D")))
+ `(company-fuzzy-annotation-face    ((t :foreground "#5E85AB")))
+ `(company-preview                  ((t :foreground "dark gray" :underline t)))
+ `(company-preview-common           ((t (:inherit company-preview))))
+ `(company-tooltip                  ((t :background "#F5F5F5" :foreground "black")))
+ `(company-tooltip-selection        ((t :background "#D6EBFF" :foreground "black")))
+ `(company-tooltip-common           ((((type x)) (:inherit company-tooltip :weight bold))
+                                     (t (:background "#F5F5F5" :foreground "#0066BF"))))
+ `(company-tooltip-common-selection ((((type x)) (:inherit company-tooltip-selection :weight bold))
+                                     (t (:background "#D6EBFF" :foreground "#0066BF"))))
+ `(company-scrollbar-bg             ((t :background "#F5F5F5")))
+ `(company-scrollbar-fg             ((t :background "#C2C3C9")))
+
+ `(popup-tip-face ((t :background "#E9EAED" :foreground "#1E1E1E")))
+
+ `(ahs-plugin-default-face           ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
+ `(ahs-plugin-default-face-unfocused ((t :background "#F1F2EE" :box (:line-width -1 :style pressed-button :color "#525D68"))))
+ `(ahs-face                          ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
+ `(ahs-definition-face               ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
+ `(ahs-face-unfocused                ((t :background "#F1F2EE" :box (:line-width -1 :style pressed-button :color "#525D68"))))
+ `(ahs-definition-face-unfocused     ((t :background "#F1F2EE" :box (:line-width -1 :style pressed-button :color "#525D68"))))
+
+ `(centaur-tabs-display-line               ((t :background "#D3D3D3" :box nil :overline nil :underline nil)))
+ `(centaur-tabs-default                    ((t :background "#D3D3D3")))
+ `(centaur-tabs-unselected                 ((t :background "#E8E8E8" :foreground "grey50")))
+ `(centaur-tabs-selected                   ((t :background "#E8E8E8" :foreground "black")))
+ `(centaur-tabs-unselected-modified        ((t :background "#E8E8E8" :foreground "grey50")))
+ `(centaur-tabs-selected-modified          ((t :background "#E8E8E8" :foreground "black")))
+ `(centaur-tabs-modified-marker-unselected ((t :background "#E8E8E8" :foreground "grey50")))
+ `(centaur-tabs-modified-marker-selected   ((t :background "#E8E8E8" :foreground "black")))
+
+ `(dashboard-banner-logo-title ((t :foreground "#616161")))
+ `(dashboard-heading           ((t :foreground "#727272")))
+ `(dashboard-items-face        ((t :foreground "#1475B7" :weight 'normal)))
+
+ `(yascroll:thumb-fringe    ((t :background "#C2C3C9" :foreground "#C2C3C9")))
+ `(yascroll:thumb-text-area ((t :background "#C2C3C9" :foreground "#C2C3C9")))
+ )
 
 ;;;###autoload
 (when load-file-name
