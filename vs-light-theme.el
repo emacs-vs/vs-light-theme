@@ -4,7 +4,7 @@
 
 ;; Author: Jen-Chieh Shen
 ;; URL: https://github.com/emacs-vs/vs-light-theme
-;; Version: 0.2
+;; Version: 1.0
 ;; Package-Requires: ((emacs "24.1"))
 
 ;; This file is NOT part of GNU Emacs.
