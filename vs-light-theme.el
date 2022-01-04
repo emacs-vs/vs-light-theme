@@ -106,7 +106,7 @@
 
  `(dashboard-banner-logo-title ((t :foreground "#616161")))
  `(dashboard-heading           ((t :foreground "#727272")))
- `(dashboard-items-face        ((t :foreground "#1475B7" :weight 'normal)))
+ `(dashboard-items-face        ((t :foreground "#1475B7")))
 
  `(yascroll:thumb-fringe    ((t :background "#C2C3C9" :foreground "#C2C3C9")))
  `(yascroll:thumb-text-area ((t :background "#C2C3C9" :foreground "#C2C3C9")))
