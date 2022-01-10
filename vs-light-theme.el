@@ -112,6 +112,9 @@
  `(yascroll:thumb-text-area ((t :background "#C2C3C9" :foreground "#C2C3C9")))
 
  `(region-occurrences-highlighter-face ((t :background "#113D6F")))
+
+ `(whitespace-indentation ((t :background "grey20" :foreground "aquamarine3")))
+ `(whitespace-trailing    ((t :background "grey20" :foreground "red")))
  )
 
 ;;;###autoload

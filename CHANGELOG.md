@@ -9,6 +9,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 > Released N/A
 
 * Configure theme for `region-occurrences-highlighter`
+* Configure theme for `whitespace`
 
 ## 1.0
 > Released Jan 1, 2022
