@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 1.1 (Unreleased)
 > Released N/A
 
-* N/A
+* Configure theme for `region-occurrences-highlighter`
 
 ## 1.0
 > Released Jan 1, 2022
