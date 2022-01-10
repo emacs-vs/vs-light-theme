@@ -110,6 +110,8 @@
 
  `(yascroll:thumb-fringe    ((t :background "#C2C3C9" :foreground "#C2C3C9")))
  `(yascroll:thumb-text-area ((t :background "#C2C3C9" :foreground "#C2C3C9")))
+
+ `(region-occurrences-highlighter-face ((t :background "#113D6F")))
  )
 
 ;;;###autoload
