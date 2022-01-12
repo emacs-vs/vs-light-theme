@@ -10,6 +10,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 * Configure theme for `region-occurrences-highlighter`
 * Configure theme for `whitespace`
+* Configure theme for `fill-column-indicator`
+* Configure theme for `highlight-numbers-number`
 
 ## 1.0
 > Released Jan 1, 2022
