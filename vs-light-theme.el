@@ -74,6 +74,8 @@
  `(tree-sitter-hl-face:keyword             ((t :foreground "#0000FF")))
  `(tree-sitter-hl-face:variable            ((t :foreground "#000000")))
  `(tree-sitter-hl-face:variable.special    ((t :foreground "#6F008A")))
+ `(tree-sitter-hl-face:function.macro      ((t :foreground "#808080")))
+ `(tree-sitter-hl-face:function.special    ((t :foreground "#808080")))
 
  `(company-tooltip-annotation       ((t :foreground "#41474D")))
  `(company-fuzzy-annotation-face    ((t :foreground "#5E85AB")))
