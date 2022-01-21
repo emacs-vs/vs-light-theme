@@ -12,6 +12,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `whitespace`
 * Configure theme for `fill-column-indicator`
 * Configure theme for `highlight-numbers-number`
+* Configure theme for `web-mode`
+* Configure theme for `rjsx-mode`
 
 ## 1.0
 > Released Jan 1, 2022
