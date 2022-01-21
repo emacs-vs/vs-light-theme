@@ -123,6 +123,20 @@
  `(whitespace-trailing    ((t :background "grey20" :foreground "red")))
 
  `(highlight-numbers-number ((t :foreground "#9BCEA3")))
+
+ `(modablist-select-face ((t :box (:line-width -1 :color "#65A7E2" :style nil))))
+ `(modablist-insert-face ((t :background "#565136" :box (:line-width -1 :color "#65A7E2" :style nil))))
+
+ `(ts-fold-replacement-face ((t :foreground "#808080" :box (:line-width -1 :style 'pressed-button))))
+
+ `(rjsx-tag              ((t (:foreground "#87CEFA"))))
+ `(rjsx-attr             ((t (:foreground "#EEDD82"))))
+ `(rjsx-text             ((t (:inherit default))))
+ `(rjsx-tag-bracket-face ((t (:inherit web-mode-html-attr-name-face))))
+
+ `(web-mode-doctype-face       ((t :foreground "Pink3")))
+ `(web-mode-comment-face       ((t :foreground "olive drab")))
+ `(web-mode-block-comment-face ((t :foreground "olive drab")))
  )
 
 ;;;###autoload
