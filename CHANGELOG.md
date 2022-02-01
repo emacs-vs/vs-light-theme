@@ -14,6 +14,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `highlight-numbers-number`
 * Configure theme for `web-mode`
 * Configure theme for `rjsx-mode`
+* Configure theme for `markdown-mode`
+* Configure theme for `org-mode`
 
 ## 1.0
 > Released Jan 1, 2022
