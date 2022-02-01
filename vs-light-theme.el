@@ -134,6 +134,23 @@
  `(rjsx-text             ((t (:inherit default))))
  `(rjsx-tag-bracket-face ((t (:inherit web-mode-html-attr-name-face))))
 
+ `(markdown-markup-face           ((t :foreground "#7EA728" :background "#ffffff")))
+ `(markdown-code-face             ((t :foreground "#7EA728" :background "#2B2B2B" :extend t :inherit nil)))
+ `(markdown-list-face             ((t :foreground "gold3")))
+ `(markdown-table-face            ((t :foreground "#87CEFA" :background "#ffffff")))
+ `(markdown-header-face           ((t :foreground "#B5CCEB" :background "#ffffff")))
+ `(markdown-header-delimiter-face ((t :foreground "#B5CCEB" :background "#ffffff")))
+
+ `(org-block   ((t :foreground "#000000" :background "#2B2B2B" :extend t :inherit nil)))
+ `(org-level-1 ((t :foreground "#B5CCEB")))
+ `(org-level-2 ((t :foreground "#B5CCEB")))
+ `(org-level-3 ((t :foreground "#B5CCEB")))
+ `(org-level-4 ((t :foreground "#B5CCEB")))
+ `(org-level-5 ((t :foreground "#B5CCEB")))
+ `(org-level-6 ((t :foreground "#B5CCEB")))
+ `(org-level-7 ((t :foreground "#B5CCEB")))
+ `(org-level-8 ((t :foreground "#B5CCEB")))
+
  `(web-mode-doctype-face       ((t :foreground "Pink3")))
  `(web-mode-comment-face       ((t :foreground "olive drab")))
  `(web-mode-block-comment-face ((t :foreground "olive drab")))
