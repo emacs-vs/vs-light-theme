@@ -154,6 +154,8 @@
  `(web-mode-doctype-face       ((t :foreground "Pink3")))
  `(web-mode-comment-face       ((t :foreground "olive drab")))
  `(web-mode-block-comment-face ((t :foreground "olive drab")))
+
+ `(preview-it-background ((t :background "#E9EAED")))
  )
 
 ;;;###autoload
