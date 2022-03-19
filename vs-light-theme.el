@@ -140,6 +140,8 @@
  `(markdown-table-face            ((t :foreground "#87CEFA" :background "#ffffff")))
  `(markdown-header-face           ((t :foreground "#B5CCEB" :background "#ffffff")))
  `(markdown-header-delimiter-face ((t :foreground "#B5CCEB" :background "#ffffff")))
+ `(markdown-metadata-key-face     ((t :foreground "#0000FF")))
+ `(markdown-metadata-value-face   ((t :foreground "#D2D2D2")))
 
  `(org-block   ((t :foreground "#000000" :background "#2B2B2B" :extend t :inherit nil)))
  `(org-level-1 ((t :foreground "#B5CCEB")))
