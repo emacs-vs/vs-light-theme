@@ -1,10 +1,14 @@
 # ignore these directories
 /.git
 /recipes
-/test
-vs-light-theme-pkg.el
 
 # ignore generated files
 *.elc
 
-/.eask
+# eask packages
+.eask/
+dist/
+
+# packaging
+*-autoloads.el
+*-pkg.el

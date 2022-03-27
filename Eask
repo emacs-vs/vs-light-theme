@@ -1,6 +1,10 @@
 (source "melpa")
 
+(package "vs-light-theme" "1.0" "Visual Studio IDE light theme")
+
 (package-file "vs-light-theme.el")
+
+(depends-on "emacs" "24.1")
 
 (development
  (depends-on "ert-runner"))
