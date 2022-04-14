@@ -157,6 +157,8 @@
  `(web-mode-comment-face       ((t :foreground "olive drab")))
  `(web-mode-block-comment-face ((t :foreground "olive drab")))
 
+ `(define-it-pop-tip-color ((t :background "#E9EAED")))
+
  `(preview-it-background ((t :background "#E9EAED")))
  )
 
