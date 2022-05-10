@@ -1,16 +1,12 @@
-(package "line-reminder"
-         "0.5.1"
-         "Line annotation for changed and saved lines")
+(package "vs-light-theme"
+         "1.0"
+         "Visual Studio IDE light theme")
 
-(package-file "line-reminder.el")
+(package-file "vs-light-theme.el")
 
 (source "melpa")
 
-(depends-on "emacs" "25.1")
-(depends-on "indicators")
-(depends-on "fringe-helper")
-(depends-on "ov")
-(depends-on "ht")
+(depends-on "emacs" "24.1")
 
 (development
  (depends-on "ert-runner"))
