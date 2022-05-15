@@ -94,6 +94,8 @@
 
  `(popup-tip-face ((t :background "#E9EAED" :foreground "#1E1E1E")))
 
+ `(flx-highlight-face ((t :foreground "#223fbf" :weight bold)))
+
  `(ahs-plugin-default-face           ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
  `(ahs-plugin-default-face-unfocused ((t :background "#F1F2EE" :box (:line-width -1 :style pressed-button :color "#525D68"))))
  `(ahs-face                          ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
