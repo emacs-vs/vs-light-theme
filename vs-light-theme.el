@@ -167,8 +167,9 @@
  )
 
 (custom-theme-set-variables
+ 'vs-light
  ;; coverlay overlays
- `(coverlay:tested-line-background-color   "#e1ffe1")
+ `(coverlay:tested-line-background-color   "#E1FFE1")
  `(coverlay:untested-line-background-color "LavenderBlush"))
 
 ;;;###autoload
