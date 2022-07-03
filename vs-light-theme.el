@@ -166,6 +166,12 @@
  `(preview-it-background ((t :background "#E9EAED")))
  )
 
+(custom-theme-set-variables
+ 'vs-light
+ ;; coverlay overlays
+ `(coverlay:tested-line-background-color   "#E1FFE1")
+ `(coverlay:untested-line-background-color "LavenderBlush"))
+
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
