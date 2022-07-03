@@ -18,6 +18,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `org-mode`
 * Configure theme for `define-it`
 * Configure theme for `flx`
+* Configure theme for `coverlay` (#1)
 
 ## 1.0
 > Released Jan 1, 2022
