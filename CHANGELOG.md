@@ -20,6 +20,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `flx`
 * Configure theme for `coverlay` (#1)
 * Enhance org-headers (b64f84fe4948254e93a3582d92414922437b0476)
+* Configure theme for `highlight-doxygen` (9c637c132c9d90b71193975e37e472ac281fffaf)
 
 ## 1.0
 > Released Jan 1, 2022
