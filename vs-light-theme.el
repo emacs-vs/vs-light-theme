@@ -163,9 +163,17 @@
  `(org-level-7 ((t :foreground "#d7ba7d")))
  `(org-level-8 ((t :foreground "#d16969")))
 
- `(web-mode-doctype-face       ((t :foreground "Pink3")))
- `(web-mode-comment-face       ((t :foreground "olive drab")))
- `(web-mode-block-comment-face ((t :foreground "olive drab")))
+ `(web-mode-doctype-face            ((t :foreground "Pink3")))
+ `(web-mode-comment-face            ((t :foreground "olive drab")))
+ `(web-mode-block-comment-face      ((t :foreground "olive drab")))
+ `(web-mode-html-tag-bracket-face   ((t :foreground "#800052")))
+ `(web-mode-html-tag-face           ((t :foreground "#800000")))
+ `(web-mode-html-attr-name-face     ((t :foreground "#FF0000")))
+ `(web-mode-html-attr-equal-face    ((t :foreground "#000000")))
+ `(web-mode-html-attr-value-face    ((t :foreground "#0000FF")))
+ `(web-mode-css-selector-tag-face   ((t :foreground "#88004A")))
+ `(web-mode-css-selector-class-face ((t :foreground "#80004A")))
+ `(web-mode-css-property-name-face  ((t :foreground "#FF0000")))
 
  `(define-it-pop-tip-color ((t :background "#E9EAED")))
 
