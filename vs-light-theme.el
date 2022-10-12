@@ -60,7 +60,7 @@
 
  `(fill-column-indicator ((t :foreground "#AA4242")))
 
- `(show-paren-match ((t :background "#C6E370")))
+ `(show-paren-match ((t :box (:line-width (-1 . -1) :style released-button :color "#A4A4A4"))))
 
  `(highlight-doxygen-comment    ((t :background "#ffffff")))
  `(highlight-doxygen-code-block ((t :background "grey85")))
@@ -104,12 +104,12 @@
 
  `(flx-highlight-face ((t :foreground "#223fbf" :weight bold)))
 
- `(ahs-plugin-default-face           ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
- `(ahs-plugin-default-face-unfocused ((t :background "#F1F2EE" :box (:line-width -1 :style pressed-button :color "#525D68"))))
- `(ahs-face                          ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
- `(ahs-definition-face               ((t :background "#E2E6D6" :box (:line-width -1 :style pressed-button :color "#525D68"))))
- `(ahs-face-unfocused                ((t :background "#F1F2EE" :box (:line-width -1 :style pressed-button :color "#525D68"))))
- `(ahs-definition-face-unfocused     ((t :background "#F1F2EE" :box (:line-width -1 :style pressed-button :color "#525D68"))))
+ `(ahs-plugin-default-face           ((t :background "#E2E6D6" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+ `(ahs-plugin-default-face-unfocused ((t :background "#F1F2EE" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+ `(ahs-face                          ((t :background "#E2E6D6" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+ `(ahs-definition-face               ((t :background "#E2E6D6" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+ `(ahs-face-unfocused                ((t :background "#F1F2EE" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+ `(ahs-definition-face-unfocused     ((t :background "#F1F2EE" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
 
  `(centaur-tabs-display-line               ((t :background "#D3D3D3" :box nil :overline nil :underline nil)))
  `(centaur-tabs-default                    ((t :background "#D3D3D3")))
@@ -134,10 +134,10 @@
 
  `(highlight-numbers-number ((t :foreground "#9BCEA3")))
 
- `(modablist-select-face ((t :box (:line-width -1 :color "#65A7E2" :style nil))))
- `(modablist-insert-face ((t :background "#565136" :box (:line-width -1 :color "#65A7E2" :style nil))))
+ `(modablist-select-face ((t :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
+ `(modablist-insert-face ((t :background "#565136" :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
 
- `(ts-fold-replacement-face ((t :foreground "#808080" :box (:line-width -1 :style 'pressed-button))))
+ `(ts-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
 
  `(rjsx-tag              ((t (:foreground "#87CEFA"))))
  `(rjsx-attr             ((t (:foreground "#EEDD82"))))
