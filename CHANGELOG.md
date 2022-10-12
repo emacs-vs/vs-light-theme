@@ -21,6 +21,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `coverlay` (#1)
 * Enhance org-headers (b64f84fe4948254e93a3582d92414922437b0476)
 * Configure theme for `highlight-doxygen` (9c637c132c9d90b71193975e37e472ac281fffaf)
+* Fix `:line-width` bug, see [here](https://emacs.stackexchange.com/a/47227/19549) (b454a7f5c151b1d5603a9e9f6162d9d02741376f)
 
 ## 1.0
 > Released Jan 1, 2022
