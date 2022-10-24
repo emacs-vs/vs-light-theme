@@ -62,6 +62,16 @@
 
  `(show-paren-match ((t :box (:line-width (-1 . -1) :style released-button :color "#A4A4A4"))))
 
+ `(highlight-indent-guides-odd-face             ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-even-face            ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-character-face       ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-top-odd-face         ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-top-even-face        ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-top-character-face   ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-stack-odd-face       ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-stack-even-face      ((t :foreground "#D0D0D0")))
+ `(highlight-indent-guides-stack-character-face ((t :foreground "#D0D0D0")))
+
  `(highlight-doxygen-comment    ((t :background "#ffffff")))
  `(highlight-doxygen-code-block ((t :background "grey85")))
  `(highlight-doxygen-command    ((t :foreground "SlateGray")))
