@@ -24,6 +24,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Fix `:line-width` bug, see [here](https://emacs.stackexchange.com/a/47227/19549) (b454a7f5c151b1d5603a9e9f6162d9d02741376f)
 * Configure theme for `highlight-indent-guides` (344a4dc59ecb25be772b5a15f07b448f3eb339b9)
 * Configure dashboard text banner (204c9d59ce6081294fa02542dfbbd5e95b8bb172)
+* Add support for `nxml-mode` (9271b350651c7404a1b71559df9feb4647879613)
 
 ## 1.0
 > Released Jan 1, 2022
