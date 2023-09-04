@@ -186,6 +186,15 @@
  `(web-mode-css-selector-class-face ((t :foreground "#80004A")))
  `(web-mode-css-property-name-face  ((t :foreground "#FF0000")))
 
+ `(nxml-processing-instruction-target    ((t :foreground "#800000")))
+ `(nxml-processing-instruction-delimiter ((t :foreground "#80765E")))
+ `(nxml-namespace-attribute-xmlns        ((t :foreground "#FF0000")))
+ `(nxml-namespace-attribute-prefix       ((t :foreground "#FF0000")))
+ `(nxml-element-local-name               ((t :foreground "#800000")))
+ `(nxml-attribute-local-name             ((t :foreground "#FF0000")))
+ `(nxml-tag-delimiter                    ((t :foreground "#800052")))
+ `(nxml-text                             ((t :foreground "#000000")))
+
  `(define-it-pop-tip-color ((t :background "#E9EAED")))
 
  `(preview-it-background ((t :background "#E9EAED")))
