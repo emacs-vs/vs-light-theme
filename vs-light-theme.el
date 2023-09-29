@@ -180,11 +180,11 @@
  `(rjsx-tag-bracket-face ((t (:inherit web-mode-html-attr-name-face))))
 
  `(markdown-markup-face           ((t :foreground "#7EA728" :background "#ffffff")))
- `(markdown-code-face             ((t :foreground "#D2D2D2" :background "#2B2B2B" :extend t :inherit nil)))
+ `(markdown-code-face             ((t :foreground "#2B2B2B" :background "#F5F5F5" :extend t :inherit nil)))
  `(markdown-list-face             ((t :foreground "gold3")))
- `(markdown-table-face            ((t :foreground "#87CEFA" :background "#ffffff")))
- `(markdown-header-face           ((t :foreground "#B5CCEB" :background "#ffffff")))
- `(markdown-header-delimiter-face ((t :foreground "#B5CCEB" :background "#ffffff")))
+ `(markdown-table-face            ((t :foreground "#35B0FC" :background "#ffffff")))
+ `(markdown-header-face           ((t :foreground "#6EA0E6" :background "#ffffff")))
+ `(markdown-header-delimiter-face ((t :foreground "#6EA0E6" :background "#ffffff")))
  `(markdown-metadata-key-face     ((t :foreground "#0000FF")))
  `(markdown-metadata-value-face   ((t :foreground "#D2D2D2")))
 
