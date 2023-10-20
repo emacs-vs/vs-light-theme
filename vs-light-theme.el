@@ -54,6 +54,7 @@
  `(region      ((t :background "#99C9EF")))
  `(fringe      ((t :background "#E6E7E8")))
 
+ `(completions-annotations ((t :inherit (shadow))))
  `(completions-common-part ((t :foreground "#223fbf" :weight bold)))
 
  `(highlight ((t :background "#99C9EF")))
