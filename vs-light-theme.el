@@ -32,6 +32,9 @@
 (deftheme vs-light
   "Visual Studio IDE light theme.")
 
+(defconst vs-light-theme-graphic-p (display-graphic-p)
+  "Non-nil if graphic mode.")
+
 (custom-theme-set-faces
  'vs-light
  `(default                      ((t (:background "#ffffff" :foreground "#000000"))))
@@ -48,20 +51,28 @@
  `(font-lock-type-face          ((t (:foreground "#2B91AF"))))
  `(font-lock-variable-name-face ((t (:foreground "#000000"))))
 
- `(line-number ((t (:background "#EEEEEE" , :foreground "#2B91AF"))))
- `(cursor      ((t :background "#909090")))
- `(hl-line     ((t :background "#E6E6E6")))
- `(region      ((t :background "#99C9EF")))
- `(fringe      ((t :background "#E6E7E8")))
+ `(line-number              ((t ( :background "#EEEEEE" :foreground "#2B91AF"))))
+ `(line-number-current-line ((t ( :background "#EEEEEE"
+                                  :foreground ,(if vs-light-theme-graphic-p
+                                                   "#2B91AF"
+                                                 "#5C8794")))))
+
+ `(cursor  ((t :background "#909090")))
+ `(hl-line ((t :background ,(if vs-light-theme-graphic-p "#E6E6E6" "#99C9EF"))))
+ `(region  ((t :background "#99C9EF")))
+ `(fringe  ((t :background "#E6E7E8")))
 
  `(completions-annotations ((t :inherit (shadow))))
  `(completions-common-part ((t :foreground "#223fbf" :weight bold)))
 
- `(highlight ((t :background "#99C9EF")))
+ `(highlight ((t :background ,(if vs-light-theme-graphic-p "#99C9EF" "#363636"))))
 
  `(fill-column-indicator ((t :foreground "#AA4242")))
 
- `(show-paren-match ((t :box (:line-width (-1 . -1) :style released-button :color "#A4A4A4"))))
+ `(show-paren-match ,(if vs-light-theme-graphic-p
+                         `((t :box ( :line-width (-1 . -1) :style released-button
+                                     :color "#A4A4A4")))
+                       `((t :background "#0055FF"))))
 
  `(highlight-indent-guides-odd-face             ((t :foreground "#D0D0D0")))
  `(highlight-indent-guides-even-face            ((t :foreground "#D0D0D0")))
