@@ -51,11 +51,8 @@
  `(font-lock-type-face          ((t (:foreground "#2B91AF"))))
  `(font-lock-variable-name-face ((t (:foreground "#000000"))))
 
- `(line-number              ((t ( :background "#EEEEEE" :foreground "#2B91AF"))))
- `(line-number-current-line ((t ( :background "#EEEEEE"
-                                  :foreground ,(if vs-light-theme-graphic-p
-                                                   "#2B91AF"
-                                                 "#5C8794")))))
+ `(mode-line          ((t :box ( :line-width -1 :style released-button))))
+ `(mode-line-inactive ((t :box ( :line-width -1 :style released-button))))
 
  `(cursor  ((t :background "#909090")))
  `(hl-line ((t :background ,(if vs-light-theme-graphic-p "#E6E6E6" "#99C9EF"))))
@@ -66,6 +63,12 @@
  `(completions-common-part ((t :foreground "#223fbf" :weight bold)))
 
  `(highlight ((t :background ,(if vs-light-theme-graphic-p "#99C9EF" "#363636"))))
+
+ `(line-number              ((t ( :background "#EEEEEE" :foreground "#2B91AF"))))
+ `(line-number-current-line ((t ( :background "#EEEEEE"
+                                  :foreground ,(if vs-light-theme-graphic-p
+                                                   "#2B91AF"
+                                                 "#5C8794")))))
 
  `(fill-column-indicator ((t :foreground "#AA4242")))
 
