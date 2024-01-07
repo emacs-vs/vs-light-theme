@@ -192,6 +192,10 @@
  `(dap-ui-breakpoint-verified-fringe ((t :foreground "#E71F2D")))
  `(breakpoint-disabled               ((t :foreground "#C55159")))
 
+ `(diff-hl-insert ((t :background "#107C10")))
+ `(diff-hl-delete ((t :background "#B01414")))
+ `(diff-hl-change ((t :background "#0077D4")))
+
  `(rjsx-tag              ((t (:foreground "#87CEFA"))))
  `(rjsx-attr             ((t (:foreground "#EEDD82"))))
  `(rjsx-text             ((t (:inherit default))))
