@@ -189,6 +189,9 @@
 
  `(ts-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
 
+ `(dap-ui-breakpoint-verified-fringe ((t :foreground "#E71F2D")))
+ `(breakpoint-disabled               ((t :foreground "#C55159")))
+
  `(rjsx-tag              ((t (:foreground "#87CEFA"))))
  `(rjsx-attr             ((t (:foreground "#EEDD82"))))
  `(rjsx-text             ((t (:inherit default))))
