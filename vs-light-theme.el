@@ -128,6 +128,7 @@
  `(tree-sitter-hl-face:repeat                ((t :foreground "#0000FF")))
  `(tree-sitter-hl-face:conditional           ((t :foreground "#0000FF")))
  `(tree-sitter-hl-face:conditional.ternary   ((t :foreground "#0000FF")))
+ `(tree-sitter-hl-face:exception             ((t :foreground "#0000FF")))
  `(tree-sitter-hl-face:punctuation           ((t :foreground "#020000")))
  `(tree-sitter-hl-face:punctuation.bracket   ((t :foreground "#020000")))
  `(tree-sitter-hl-face:punctuation.delimiter ((t :foreground "#020000")))
