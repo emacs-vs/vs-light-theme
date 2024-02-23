@@ -108,7 +108,7 @@
  `(tree-sitter-hl-face:constructor           ((t :foreground "#17A0FB")))
  `(tree-sitter-hl-face:variable              ((t :foreground "#000000")))
  `(tree-sitter-hl-face:variable.parameter    ((t :foreground "#808080")))
- `(tree-sitter-hl-face:variable.builtin      ((t :foreground "#17A0FB")))
+ `(tree-sitter-hl-face:variable.builtin      ((t :foreground "#0C6EEF")))
  `(tree-sitter-hl-face:variable.special      ((t :foreground "#6F008A")))
  `(tree-sitter-hl-face:property              ((t :foreground "#2F4F4F")))
  `(tree-sitter-hl-face:property.definition   ((t :foreground "#2F4F4F")))
