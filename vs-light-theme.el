@@ -252,6 +252,7 @@
 
 (custom-theme-set-variables
  'vs-light
+ `(centaur-tabs-background-color "#D3D3D3")
  ;; coverlay overlays
  `(coverlay:tested-line-background-color   "#E1FFE1")
  `(coverlay:untested-line-background-color "LavenderBlush")
