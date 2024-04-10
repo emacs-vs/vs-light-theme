@@ -161,14 +161,17 @@
  `(ahs-face-unfocused                ((t :background "#F1F2EE" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
  `(ahs-definition-face-unfocused     ((t :background "#F1F2EE" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
 
+ `(tab-line     ((t :background "#D3D3D3")))
+ `(tab-line-tab ((t :background "#D3D3D3")))
+
  `(centaur-tabs-display-line               ((t :background "#D3D3D3" :box nil :overline nil :underline nil)))
  `(centaur-tabs-default                    ((t :background "#D3D3D3")))
- `(centaur-tabs-unselected                 ((t :background "#E8E8E8" :foreground "grey50")))
- `(centaur-tabs-selected                   ((t :background "#E8E8E8" :foreground "black")))
- `(centaur-tabs-unselected-modified        ((t :background "#E8E8E8" :foreground "grey50")))
- `(centaur-tabs-selected-modified          ((t :background "#E8E8E8" :foreground "black")))
- `(centaur-tabs-modified-marker-unselected ((t :background "#E8E8E8" :foreground "grey50")))
- `(centaur-tabs-modified-marker-selected   ((t :background "#E8E8E8" :foreground "black")))
+ `(centaur-tabs-unselected                 ((t :background "#E8E8E8" :foreground "grey40")))
+ `(centaur-tabs-selected                   ((t :background "#F0F0F0" :foreground "black")))
+ `(centaur-tabs-unselected-modified        ((t :background "#E8E8E8" :foreground "grey40")))
+ `(centaur-tabs-selected-modified          ((t :background "#F0F0F0" :foreground "black")))
+ `(centaur-tabs-modified-marker-unselected ((t :background "#E8E8E8" :foreground "grey40")))
+ `(centaur-tabs-modified-marker-selected   ((t :background "#F0F0F0" :foreground "black")))
 
  `(dashboard-text-banner       ((t :foreground "black")))
  `(dashboard-banner-logo-title ((t :foreground "#616161")))
@@ -178,7 +181,7 @@
  `(yascroll:thumb-fringe    ((t :background "#C2C3C9" :foreground "#C2C3C9")))
  `(yascroll:thumb-text-area ((t :background "#C2C3C9" :foreground "#C2C3C9")))
 
- `(region-occurrences-highlighter-face ((t :background "#113D6F")))
+ `(region-occurrences-highlighter-face ((t :background "#8FBEE3")))
 
  `(whitespace-indentation ((t :background "grey20" :foreground "aquamarine3")))
  `(whitespace-trailing    ((t :background "grey20" :foreground "red")))
