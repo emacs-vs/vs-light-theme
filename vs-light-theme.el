@@ -195,6 +195,10 @@
  `(modablist-select-face ((t :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
  `(modablist-insert-face ((t :background "#565136" :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
 
+ `(lsp-flycheck-info-unnecessary-face    ((t :inherit flycheck-info    :foreground "#858585")))
+ `(lsp-flycheck-warning-unnecessary-face ((t :inherit flycheck-warning :foreground "#858585")))
+ `(lsp-flycheck-error-unnecessary-face   ((t :inherit flycheck-error   :foreground "#858585")))
+
  `(lsp-inlay-hint-face           ((t :background "#ECECFB" :foreground "#7A6C7F")))
  `(lsp-inlay-hint-type-face      ((t :background "#ECECFB" :foreground "#7A6C7F")))
  `(lsp-inlay-hint-parameter-face ((t :background "#ECECFB" :foreground "#7A6C7F")))
