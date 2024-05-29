@@ -54,8 +54,8 @@
  `(mode-line          ((t :box ( :line-width -1 :style released-button))))
  `(mode-line-inactive ((t :box ( :line-width -1 :style released-button))))
 
- `(cursor  ((t :background "#909090")))
- `(hl-line ((t :background ,(if vs-light-theme-graphic-p "#E6E6E6" "#99C9EF"))))
+ `(cursor  ((t :background "#A3A3A3")))
+ `(hl-line ((t :background ,(if vs-light-theme-graphic-p "#F1F1F1" "#99C9EF"))))
  `(region  ((t :background "#99C9EF")))
  `(fringe  ((t :background "#E6E7E8")))
 
