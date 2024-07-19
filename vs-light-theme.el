@@ -77,6 +77,8 @@
                                      :color "#A4A4A4")))
                        `((t :background "#0055FF"))))
 
+ `(show-eof-mode-marker-face ((t :background "#ECECFB" :foreground "#7A6C7F")))
+
  `(highlight-indent-guides-odd-face             ((t :foreground "#D0D0D0")))
  `(highlight-indent-guides-even-face            ((t :foreground "#D0D0D0")))
  `(highlight-indent-guides-character-face       ((t :foreground "#D0D0D0")))
