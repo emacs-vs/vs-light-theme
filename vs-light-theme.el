@@ -56,7 +56,7 @@
 
  `(cursor  ((t :background "#A3A3A3")))
  `(hl-line ((t :background ,(if vs-light-theme-graphic-p "#F1F1F1" "#99C9EF"))))
- `(region  ((t :background "#99C9EF")))
+ `(region  ((t :background "#8AB6DF")))
  `(fringe  ((t :background "#E6E7E8")))
 
  `(completions-annotations ((t :inherit (shadow))))
