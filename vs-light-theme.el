@@ -51,7 +51,7 @@
  `(font-lock-type-face          ((t (:foreground "#2B91AF"))))
  `(font-lock-variable-name-face ((t (:foreground "#000000"))))
 
- `(header-line ((t (:background "grey90" :foreground "grey20"))))
+ `(header-line ((t (:background "#F6F6F6" :foreground "#000000"))))
 
  `(mode-line          ((t :box ( :line-width -1 :style released-button))))
  `(mode-line-inactive ((t :box ( :line-width -1 :style released-button))))
