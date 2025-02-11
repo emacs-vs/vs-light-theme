@@ -1,5 +1,5 @@
 (package "vs-light-theme"
-         "1.0"
+         "2.0"
          "Visual Studio IDE light theme")
 
 (website-url "https://github.com/emacs-vs/vs-light-theme")
