@@ -3,7 +3,7 @@
          "Visual Studio IDE light theme")
 
 (website-url "https://github.com/emacs-vs/vs-light-theme")
-(keywords "")
+(keywords "faces")
 
 (package-file "vs-light-theme.el")
 

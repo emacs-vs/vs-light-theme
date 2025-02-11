@@ -1,4 +1,4 @@
-;;; vs-light-theme.el --- Visual Studio IDE light theme
+;;; vs-light-theme.el --- Visual Studio IDE light theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2019-2025 Shen, Jen-Chieh
 
@@ -6,6 +6,7 @@
 ;; URL: https://github.com/emacs-vs/vs-light-theme
 ;; Version: 2.0
 ;; Package-Requires: ((emacs "24.1"))
+;; Keywords: faces
 
 ;; This file is NOT part of GNU Emacs.
 
