@@ -191,7 +191,8 @@
 
  `(dashboard-text-banner       ((t :foreground "black")))
  `(dashboard-banner-logo-title ((t :foreground "#616161")))
- `(dashboard-heading           ((t :foreground "#727272")))
+ `(dashboard-heading           ((t :foreground "#727272"
+                                   :box (:line-width (-1 . 5) :color "#ffffff"))))
  `(dashboard-items-face        ((t :foreground "#1475B7")))
 
  `(yascroll:thumb-fringe    ((t :background "#C2C3C9" :foreground "#C2C3C9")))
