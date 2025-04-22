@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "vs-light-theme"
          "2.0"
          "Visual Studio IDE light theme")
