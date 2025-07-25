@@ -82,6 +82,17 @@
 
  `(show-eof-mode-marker-face ((t :background "#ECECFB" :foreground "#7A6C7F")))
 
+ `(diredfl-number      ((t :foreground "#9BCEA3")))
+ `(diredfl-dir-name    ((t :foreground "#DEB543")))
+ `(diredfl-date-time   ((t :foreground "#787A81")))
+ `(diredfl-file-name   ((t :foreground "#4A4A4A")))
+ `(diredfl-file-suffix ((t :foreground "#4A4A4A")))
+ `(diredfl-no-priv     ((t :background "LightGray")))
+ `(diredfl-dir-priv    ((t :foreground "#DEB543")))
+ `(diredfl-read-priv   ((t :background "#D85983")))
+ `(diredfl-write-priv  ((t :background "#4CD753")))
+ `(diredfl-exec-priv   ((t :background "#D4AD7B")))
+
  `(highlight-indent-guides-odd-face             ((t :foreground "#D0D0D0")))
  `(highlight-indent-guides-even-face            ((t :foreground "#D0D0D0")))
  `(highlight-indent-guides-character-face       ((t :foreground "#D0D0D0")))
@@ -128,7 +139,7 @@
  `(tree-sitter-hl-face:label                 ((t :foreground "#808080")))
  `(tree-sitter-hl-face:constant              ((t :foreground "#6F008A")))
  `(tree-sitter-hl-face:constant.builtin      ((t :foreground "#0000FF")))
- `(tree-sitter-hl-face:number                ((t :foreground "black")))
+ `(tree-sitter-hl-face:number                ((t :foreground "#9BCEA3")))
  `(tree-sitter-hl-face:boolean               ((t :foreground "#0000FF")))
  `(tree-sitter-hl-face:repeat                ((t :foreground "#0000FF")))
  `(tree-sitter-hl-face:conditional           ((t :foreground "#0000FF")))
