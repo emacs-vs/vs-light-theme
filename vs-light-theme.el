@@ -222,9 +222,9 @@
  `(modablist-select-face ((t :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
  `(modablist-insert-face ((t :background "#565136" :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
 
- `(lsp-flycheck-info-unnecessary-face    ((t :inherit flycheck-info    :foreground "#858585")))
- `(lsp-flycheck-warning-unnecessary-face ((t :inherit flycheck-warning :foreground "#858585")))
- `(lsp-flycheck-error-unnecessary-face   ((t :inherit flycheck-error   :foreground "#858585")))
+ `(lsp-flycheck-info-unnecessary-face    ((t :inherit flycheck-info)))
+ `(lsp-flycheck-warning-unnecessary-face ((t :inherit flycheck-warning)))
+ `(lsp-flycheck-error-unnecessary-face   ((t :inherit flycheck-error)))
 
  `(lsp-inlay-hint-face           ((t :background "#ECECFB" :foreground "#7A6C7F")))
  `(lsp-inlay-hint-type-face      ((t :background "#ECECFB" :foreground "#7A6C7F")))
@@ -232,6 +232,22 @@
 
  `(dap-ui-breakpoint-verified-fringe ((t :foreground "#E71F2D")))
  `(breakpoint-disabled               ((t :foreground "#C55159")))
+
+ `(success ((t :foreground "#10C800" :bold t)))
+ `(warning ((t :foreground "#E4B400" :bold t)))
+ `(error   ((t :foreground "#EF1C0E" :bold t)))
+
+ `(flycheck-info    ((t :underline (:style wave :color "#10C800"))))
+ `(flycheck-warning ((t :underline (:style wave :color "#E4B400"))))
+ `(flycheck-error   ((t :underline (:style wave :color "#EF1C0E"))))
+
+ `(sideline-flycheck-info    ((t :foreground "#10C800" :bold t)))
+ `(sideline-flycheck-warning ((t :foreground "#E4B400" :bold t)))
+ `(sideline-flycheck-error   ((t :foreground "#EF1C0E" :bold t)))
+
+ `(sideline-flymake-note    ((t :foreground "#10C800" :bold t)))
+ `(sideline-flymake-warning ((t :foreground "#E4B400" :bold t)))
+ `(sideline-flymake-error   ((t :foreground "#EF1C0E" :bold t)))
 
  `(diff-hl-insert ((t :background "#107C10")))
  `(diff-hl-delete ((t :background "#B01414")))
