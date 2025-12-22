@@ -241,6 +241,9 @@
  `(flycheck-warning ((t :underline (:style wave :color "#E4B400"))))
  `(flycheck-error   ((t :underline (:style wave :color "#EF1C0E"))))
 
+ `(sideline-default ((t :foreground "DarkOrange")))
+ `(sideline-backend ((t :background "#F6F6F6" :foreground "#7F7F7F")))
+
  `(sideline-flycheck-info    ((t :foreground "#10C800" :bold t)))
  `(sideline-flycheck-warning ((t :foreground "#E4B400" :bold t)))
  `(sideline-flycheck-error   ((t :foreground "#EF1C0E" :bold t)))
