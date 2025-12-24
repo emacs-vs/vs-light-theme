@@ -132,6 +132,7 @@
  `(tree-sitter-hl-face:doc                   ((t :foreground "olive drab")))
  `(tree-sitter-hl-face:string                ((t :foreground "#B21515")))
  `(tree-sitter-hl-face:string.special        ((t :foreground "#B21515")))
+ `(tree-sitter-hl-face:string.special.path   ((t :foreground "#B21515")))
  `(tree-sitter-hl-face:escape                ((t :foreground "#B21515")))
  `(tree-sitter-hl-face:embedded              ((t :foreground "#B21515")))
  `(tree-sitter-hl-face:keyword               ((t :foreground "#0000FF")))
@@ -252,9 +253,16 @@
  `(sideline-flymake-warning ((t :foreground "#E4B400" :bold t)))
  `(sideline-flymake-error   ((t :foreground "#EF1C0E" :bold t)))
 
+ `(diff-added   ((t :background "#107C10")))
+ `(diff-removed ((t :background "#B01414")))
+ `(diff-changed ((t :background "#0077D4")))
+
  `(diff-hl-insert ((t :background "#107C10")))
  `(diff-hl-delete ((t :background "#B01414")))
  `(diff-hl-change ((t :background "#0077D4")))
+
+ `(tree-sitter-hl-face:diff.plus  ((t :background "#107C10")))
+ `(tree-sitter-hl-face:diff.minus ((t :background "#B01414")))
 
  `(rjsx-tag              ((t (:foreground "#87CEFA"))))
  `(rjsx-attr             ((t (:foreground "#EEDD82"))))
