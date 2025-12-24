@@ -253,16 +253,16 @@
  `(sideline-flymake-warning ((t :foreground "#E4B400" :bold t)))
  `(sideline-flymake-error   ((t :foreground "#EF1C0E" :bold t)))
 
- `(diff-added   ((t :background "#107C10")))
- `(diff-removed ((t :background "#B01414")))
- `(diff-changed ((t :background "#0077D4")))
+ `(diff-added   ((t :background "#1FDE1F")))
+ `(diff-removed ((t :background "#E75858")))
+ `(diff-changed ((t :background "#58A8E7")))
 
- `(diff-hl-insert ((t :background "#107C10")))
- `(diff-hl-delete ((t :background "#B01414")))
- `(diff-hl-change ((t :background "#0077D4")))
+ `(diff-hl-insert ((t :background "#1FDE1F")))
+ `(diff-hl-delete ((t :background "#E75858")))
+ `(diff-hl-change ((t :background "#58A8E7")))
 
- `(tree-sitter-hl-face:diff.plus  ((t :background "#107C10")))
- `(tree-sitter-hl-face:diff.minus ((t :background "#B01414")))
+ `(tree-sitter-hl-face:diff.plus  ((t :background "#1FDE1F")))
+ `(tree-sitter-hl-face:diff.minus ((t :background "#E75858")))
 
  `(rjsx-tag              ((t (:foreground "#87CEFA"))))
  `(rjsx-attr             ((t (:foreground "#EEDD82"))))
