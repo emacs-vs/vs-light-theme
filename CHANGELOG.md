@@ -8,6 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 > Released N/A
 
 * feat: Add `dired` support ([`a3edd50`](../../commit/a3edd50b794816e59ef5ab744dffe5dc3e192210))
+* feat: Add `diff` support ([#5](../../pull/5))
 
 ## 2.0
 > Released Feb 10, 2025
