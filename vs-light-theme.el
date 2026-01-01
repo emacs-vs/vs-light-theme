@@ -134,7 +134,7 @@
  `(tree-sitter-hl-face:string.special        ((t :foreground "#B21515")))
  `(tree-sitter-hl-face:string.special.path   ((t :foreground "#B21515")))
  `(tree-sitter-hl-face:escape                ((t :foreground "#B21515")))
- `(tree-sitter-hl-face:embedded              ((t :foreground "#B21515")))
+ `(tree-sitter-hl-face:embedded              ((t :foreground "#black")))
  `(tree-sitter-hl-face:keyword               ((t :foreground "#0000FF")))
  `(tree-sitter-hl-face:operator              ((t :foreground "#020000")))
  `(tree-sitter-hl-face:label                 ((t :foreground "#808080")))
