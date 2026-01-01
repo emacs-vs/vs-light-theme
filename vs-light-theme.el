@@ -1,6 +1,6 @@
 ;;; vs-light-theme.el --- Visual Studio IDE light theme  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2019-2025 Shen, Jen-Chieh
+;; Copyright (C) 2019-2026 Shen, Jen-Chieh
 
 ;; Author: Jen-Chieh Shen
 ;; URL: https://github.com/emacs-vs/vs-light-theme
