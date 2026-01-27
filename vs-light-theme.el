@@ -192,6 +192,8 @@
  `(ahs-face-unfocused                ((t :background "#F1F2EE" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
  `(ahs-definition-face-unfocused     ((t :background "#F1F2EE" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
 
+ `(jcs-echobar-default ((t :foreground "#4F4F4F")))
+
  `(tab-line     ((t :background "#D3D3D3")))
  `(tab-line-tab ((t :background "#D3D3D3")))
 
@@ -312,8 +314,7 @@
 
  `(define-it-pop-tip-color ((t :background "#E9EAED")))
 
- `(preview-it-background ((t :background "#E9EAED")))
- )
+ `(preview-it-background ((t :background "#E9EAED"))))
 
 (custom-theme-set-variables
  'vs-light
