@@ -57,7 +57,7 @@
  `(mode-line          ((t :box ( :line-width -1 :style released-button))))
  `(mode-line-inactive ((t :box ( :line-width -1 :style released-button))))
 
- `(cursor  ((t :background "#A3A3A3")))
+ `(cursor  ((t :background "#949494")))
  `(hl-line ((t :background ,(if vs-light-theme-graphic-p "#F1F1F1" "#99C9EF"))))
  `(region  ((t :background "#8AB6DF")))
  `(fringe  ((t :background "#E6E7E8")))
@@ -217,8 +217,10 @@
 
  `(region-occurrences-highlighter-face ((t :background "#8FBEE3")))
 
- `(whitespace-indentation ((t :background "grey20" :foreground "aquamarine3")))
- `(whitespace-trailing    ((t :background "grey20" :foreground "red")))
+ `(whitespace-space       ((t :background "#FAFAFA" :foreground "#2B91AF")))
+ `(whitespace-tab         ((t :background "#FAFAFA" :foreground "#2B91AF")))
+ `(whitespace-indentation ((t :background "#FAFAFA" :foreground "aquamarine3")))
+ `(whitespace-trailing    ((t :background "#FAFAFA" :foreground "red")))
 
  `(highlight-numbers-number ((t :foreground "#9BCEA3")))
 
