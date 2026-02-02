@@ -4,11 +4,14 @@ All notable changes to this project will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+
 ## 3.0 (Unreleased)
 > Released N/A
 
 * feat: Add `dired` support ([`a3edd50`](../../commit/a3edd50b794816e59ef5ab744dffe5dc3e192210))
 * feat: Add `diff` support ([#5](../../pull/5))
+* feat: Improve `whitespace` ([`7e0fad8`](../../commit/7e0fad816fc8eee099d3ddd972430904dcdd8b3b))
+* feat: Add `isearch` support ([`283ab40`](../../commit/283ab40ea1b61caccbf1a0194a822e1b1d2f7f57))
 
 ## 2.0
 > Released Feb 10, 2025
