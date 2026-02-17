@@ -267,16 +267,18 @@
  `(isearch-fail   ((t :background "#DD7272" :box (:line-width (-1 . -1) :style pressed-button :color "#EAEAF2"))))
  `(lazy-highlight ((t :background "#E4D8C2" :box (:line-width (-1 . -1) :style pressed-button :color "#EAEAF2"))))
 
- `(diff-added   ((t :background "#1FDE1F")))
- `(diff-removed ((t :background "#E75858")))
- `(diff-changed ((t :background "#58A8E7")))
+ `(diff-header      ((t :background "#F4F4F4" :extend t)))
+ `(diff-file-header ((t :background "#E4E4E4" :foreground "#B21515")))
+ `(diff-added       ((t :background "#8CCA8C")))
+ `(diff-removed     ((t :background "#DF9696")))
+ `(diff-changed     ((t :background "#9EC2DE")))
 
- `(diff-hl-insert ((t :background "#1FDE1F")))
- `(diff-hl-delete ((t :background "#E75858")))
- `(diff-hl-change ((t :background "#58A8E7")))
+ `(diff-hl-insert ((t :background "#8CCA8C")))
+ `(diff-hl-delete ((t :background "#DF9696")))
+ `(diff-hl-change ((t :background "#9EC2DE")))
 
- `(tree-sitter-hl-face:diff.plus  ((t :background "#1FDE1F")))
- `(tree-sitter-hl-face:diff.minus ((t :background "#E75858")))
+ `(tree-sitter-hl-face:diff.plus  ((t :background "#8CCA8C")))
+ `(tree-sitter-hl-face:diff.minus ((t :background "#DF9696")))
 
  `(rjsx-tag              ((t (:foreground "#87CEFA"))))
  `(rjsx-attr             ((t (:foreground "#EEDD82"))))
